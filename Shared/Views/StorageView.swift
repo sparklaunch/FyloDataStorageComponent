@@ -11,8 +11,9 @@ struct StorageView: View {
     var body: some View {
         ZStack {
             Color("BackgroundColor")
-            VStack {
+            VStack(spacing: 16) {
                 StorageTextView()
+                StorageSliderView()
             }
             .padding(36)
         }
