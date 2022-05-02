@@ -16,10 +16,12 @@ struct StorageView: View {
                 StorageSliderView()
             }
             .padding(36)
+            .padding(.bottom, 36)
         }
         .cornerRadius(15)
         .shadow(radius: 10)
         .fixedSize(horizontal: false, vertical: true)
+        .overlay(LeftView().offset(x: .zero, y: 36), alignment: .bottom)
     }
 }
 
