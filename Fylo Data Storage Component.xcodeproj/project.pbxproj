@@ -13,6 +13,7 @@
 		90FA9A4E281F7654004BC2C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA9A3C281F7654004BC2C9 /* ContentView.swift */; };
 		90FA9A4F281F7654004BC2C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90FA9A3D281F7654004BC2C9 /* Assets.xcassets */; };
 		90FA9A50281F7654004BC2C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90FA9A3D281F7654004BC2C9 /* Assets.xcassets */; };
+		90FA9A5D281F7879004BC2C9 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA9A5C281F7879004BC2C9 /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		90FA9A42281F7654004BC2C9 /* Fylo Data Storage Component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fylo Data Storage Component.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FA9A48281F7654004BC2C9 /* Fylo Data Storage Component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fylo Data Storage Component.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FA9A4A281F7654004BC2C9 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		90FA9A5C281F7879004BC2C9 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				90FA9A3C281F7654004BC2C9 /* ContentView.swift */,
+				90FA9A5C281F7879004BC2C9 /* BackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90FA9A5D281F7879004BC2C9 /* BackgroundView.swift in Sources */,
 				90FA9A4D281F7654004BC2C9 /* ContentView.swift in Sources */,
 				90FA9A4B281F7654004BC2C9 /* FyloDataStorageComponentApp.swift in Sources */,
 			);
