@@ -24,6 +24,7 @@ struct HeaderView: View {
             .padding(48)
         }
         .cornerRadius(15)
+        .cornerRadius(100, corners: [.topRight])
         .shadow(radius: 10)
         .fixedSize(horizontal: false, vertical: true)
     }

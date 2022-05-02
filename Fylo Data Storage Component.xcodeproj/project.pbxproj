@@ -18,6 +18,7 @@
 		90FA9A61281F7961004BC2C9 /* HeaderIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA9A60281F7961004BC2C9 /* HeaderIconView.swift */; };
 		90FA9A63281F7E9D004BC2C9 /* StorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA9A62281F7E9D004BC2C9 /* StorageView.swift */; };
 		90FA9A65281F7F58004BC2C9 /* StorageTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA9A64281F7F58004BC2C9 /* StorageTextView.swift */; };
+		90FA9A67281F9E54004BC2C9 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA9A66281F9E54004BC2C9 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		90FA9A60281F7961004BC2C9 /* HeaderIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderIconView.swift; sourceTree = "<group>"; };
 		90FA9A62281F7E9D004BC2C9 /* StorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageView.swift; sourceTree = "<group>"; };
 		90FA9A64281F7F58004BC2C9 /* StorageTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageTextView.swift; sourceTree = "<group>"; };
+		90FA9A66281F9E54004BC2C9 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			children = (
 				90FA9A3B281F7654004BC2C9 /* FyloDataStorageComponentApp.swift */,
 				90FA9A3D281F7654004BC2C9 /* Assets.xcassets */,
+				90FA9A66281F9E54004BC2C9 /* Utilities.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				90FA9A4B281F7654004BC2C9 /* FyloDataStorageComponentApp.swift in Sources */,
 				90FA9A61281F7961004BC2C9 /* HeaderIconView.swift in Sources */,
 				90FA9A5F281F7901004BC2C9 /* HeaderView.swift in Sources */,
+				90FA9A67281F9E54004BC2C9 /* Utilities.swift in Sources */,
 				90FA9A65281F7F58004BC2C9 /* StorageTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
