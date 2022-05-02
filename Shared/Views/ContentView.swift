@@ -11,6 +11,11 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             BackgroundView()
+            ZStack {
+                VStack {
+                    HeaderView()
+                }
+            }
         }
     }
 }
