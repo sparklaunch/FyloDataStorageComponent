@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HeaderView: View {
     var body: some View {
-        ZStack {
+        ZStack(alignment: .leading) {
             Color("BackgroundColor")
             VStack(alignment: .leading, spacing: 32) {
                 Image("Logo")
@@ -21,8 +21,11 @@ struct HeaderView: View {
                     HeaderIconView(icon: .init("Upload"))
                 }
             }
-            .padding(24)
+            .padding(48)
         }
+        .cornerRadius(15)
+        .shadow(radius: 10)
+        .padding(24)
         .fixedSize(horizontal: false, vertical: true)
     }
 }
