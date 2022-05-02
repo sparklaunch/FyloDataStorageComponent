@@ -12,10 +12,12 @@ struct StorageTextView: View {
         HStack(spacing: .zero) {
             Text("You've used ")
                 .fontWeight(.light)
+                .lineLimit(1)
             Text("815 GB")
                 .fontWeight(.bold)
             Text(" of your storage")
                 .fontWeight(.light)
+                .lineLimit(1)
         }
         .font(.body)
         .foregroundColor(Color("TextColor"))
