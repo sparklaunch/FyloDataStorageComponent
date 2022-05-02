@@ -25,7 +25,6 @@ struct HeaderView: View {
         }
         .cornerRadius(15)
         .shadow(radius: 10)
-        .padding(24)
         .fixedSize(horizontal: false, vertical: true)
     }
 }
@@ -33,6 +32,7 @@ struct HeaderView: View {
 struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
         HeaderView()
+            .padding()
             .previewLayout(.sizeThatFits)
     }
 }

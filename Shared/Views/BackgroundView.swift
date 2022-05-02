@@ -12,7 +12,6 @@ struct BackgroundView: View {
         Image(decorative: "Background")
             .resizable()
             .edgesIgnoringSafeArea(.all)
-            .scaledToFill()
     }
 }
 

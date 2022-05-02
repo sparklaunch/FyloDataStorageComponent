@@ -12,8 +12,9 @@ struct ContentView: View {
         ZStack {
             BackgroundView()
             ZStack {
-                VStack {
+                VStack(spacing: 16) {
                     HeaderView()
+                    StorageView()
                 }
                 .padding()
             }
